@@ -1,0 +1,82 @@
+body{
+	background-color: #FFB53C;
+}
+.gallery{
+	width: 100%;
+	padding-top: 5vw;
+	z-index: 2;
+	height:400vw;
+	background-color:#FFB53C ;
+}
+.gallery h1{
+	margin: 0;
+	margin-bottom: 2vw;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	color: black;
+	font-family: 'Leckerli One';
+	background-color: #FFB53C;
+	text-align: center;
+	font-size: 6vw;
+}
+
+.gallery h3{
+	#padding-left: 5%;
+	width:100%;
+	color: #5D1813;
+	font-size: 4vw;
+	position: relative;
+	float:left;
+	margin-bottom: 2vw;
+	margin-top: 5vw;
+	text-align: center;
+	font-family: 'Copse';
+}
+
+.gphoto{
+	width: 23%;
+	height: 15vw;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	float:left;
+	position: relative;
+	box-shadow: 0 0 0.5vw black;
+}
+
+.gphoto:hover{
+	cursor:zoom-in;
+}
+.popup{
+	width:0;
+	height:0;
+	top:0;
+	background: rgba(0,0,0,0.6);
+	position:fixed;
+	z-index:-1;
+}
+
+.pphoto{
+	width:85%;
+	left:7.5%;
+	position:absolute;
+	top:50%;
+	transform: translateY(-50%);
+	margin-left:0;
+	margin-top:auto;
+	margin-bottom:auto;
+	height: 55vw;
+}	
+
+.popup i{
+	font-size: 50px;
+	position: absolute;
+	top: 5%;
+	left: 46%;
+	color:#00ff00;
+}
+
+.popup i:hover{
+	cursor:pointer;
+}

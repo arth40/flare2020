@@ -1,0 +1,28 @@
+.trash
+{
+	position:fixed; 
+	right:0; 
+	top:60%; 
+	height:8vw; 
+	width:12%; 
+	background-color:rgba(210,114,25,0.4); 
+	z-index:13; 
+	font-size:1.5vw;
+	padding:0;
+	margin:0;
+	font-family:'Graduate'; 
+	padding-right:2%;
+}
+
+.trash:hover{
+	background-color:rgba(210,114,25,1);
+	cursor: not-allowed;
+}
+
+.trash h2{
+	margin:0;
+	width: 70%;
+	margin-left:15%;
+	margin-top:1.5vw;
+	padding:0;
+}

@@ -1,0 +1,17 @@
+.hiddenpage{
+	width:0;
+	height: 0;
+	position: fixed;
+	font-family: "Copse";
+	z-index: -3;
+	overflow: hidden;
+	text-align: center;
+}
+.hiddenpage h2{
+	margin-left:10%;
+	margin-right: 10%;
+}
+
+.page{
+	overflow: hidden;
+}
