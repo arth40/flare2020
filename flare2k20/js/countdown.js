@@ -1,7 +1,7 @@
 
 //var countDownDate = new Date("Apr 17, 2020 00:00:00").getTime();
 
-var x = setInterval(function() {
+var x = setTimeout(function() {
 
   // Get today's date and time
   //var now = new Date().getTime();
@@ -21,11 +21,11 @@ var x = setInterval(function() {
   document.getElementById("minutes").innerHTML = "00";
   document.getElementById("seconds").innerHTML = "00";
    
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("").innerHTML = "EXPIRED";
+  //if (distance < 0) {
+    //clearInterval(x);
+    //document.getElementById("").innerHTML = "EXPIRED";
   }
-}, 1000);
+}, 0);
 setInterval(coloranimate,1000);
 function coloranimate(){
 	var dd = document.getElementById("day");
